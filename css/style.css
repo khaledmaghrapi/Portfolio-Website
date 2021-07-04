@@ -1,0 +1,478 @@
+/* import fonts from fonts.css file */ 
+@import url(font.css);
+/* font-family: roboto , Roboto-Regular.ttf; */
+body
+{
+	font-family: "Roboto",cursive;
+	background-image: url(../img/body-bg.png) ;
+}
+/************ start navbar ****************/
+nav
+{
+	height: 80px;
+}
+.navbar-class .navbar h3
+{
+	font:normal bold 40px/0px Roboto,cursive;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	color: #8845F4;
+}
+.navbar-brand
+{
+	margin-left: 50px;
+}
+.navbar-nav
+{
+	margin-right: 50px;
+	margin-top: 10px;
+}
+.navbar-nav .nav-item
+{
+	padding-left: 40px;
+}
+
+.collapse .navbar-nav .nav-item .nav-link
+{
+	font-family: "Roboto",cursive;
+	font-size: 16px;
+	color: black;
+	text-transform: uppercase;	
+}
+.collapse .navbar-nav .nav-item .nav-link:hover
+{
+	color: #8D82EB
+}
+
+/********* end navbar ************/
+
+/*****start my banner ***********/
+.banner
+{
+	background: url(../img/banner/home-banner.png) no-repeat;
+	
+	width: 100%;
+
+}
+.banner .banner-title
+{
+	padding-top: 200px;
+	padding-left: 120px;
+	font-family: "Roboto",cursive;
+}
+.banner .banner-title h3
+{
+	font-size: 40px;
+	padding: 15px;
+}
+.banner .banner-title h3:after
+{
+	content: "";
+	height: 3px;
+	width: 300px;
+	background: black;
+	display: inline-block;
+	margin-left: 15px;
+}
+.banner .banner-title h1
+{
+	font-size: 60px;
+	padding-left: 15px;
+}
+.banner .banner-title p
+{
+	margin-left: 15px;
+
+}
+.banner .banner-title button
+{
+	background-color: #8845F4;
+	border: 2px solid #8845F4;
+	padding: 10px 30px;
+	margin-left: 20px;
+	color: #fff;
+}
+.banner .banner-title button:hover
+{
+	background-color:transparent ;
+	color: #111;
+}
+
+
+.banner .container .row .image img
+{
+	width: 400px;
+	height: 400px;
+	margin-top: 150px;
+	margin-left: 100px;
+}
+/******* end bannes *******/
+/******* start about us area *****/
+.about-us
+{
+	margin-top: 50px;
+}
+.about-us img
+{
+	width: 500px;
+	height: 500px;
+	margin-left: 50px;
+}
+.about-us .about-title
+{
+	padding-left: 50px;
+	padding-top: 50px;
+	font-family: "Roboto",cursive;
+}
+
+.about-us .about-title h3
+{
+	font-size: 40px;
+	letter-spacing: 10px;
+}
+.about-us .about-title p
+{
+	color: #777777;
+}
+.about-us .about-title button
+{
+	background-color:#8845F4 ;
+	color: #fff;
+	padding: 10px 50px;
+	border:none;
+}
+.about-us .about-title button:hover
+{
+	color: black;
+	background-color: transparent;
+	border:2px solid #8845F4;
+	
+}
+
+/******* end about us area *****/
+/******* start brand area *****/
+.brand-area
+{
+	margin-left: 5rem;
+	margin-top: 7rem;
+}
+.brand-area .container .second-row .col-lg-4
+{
+	display: flex;
+	justify-content: center;
+}
+.brand-area .container .second-row .col-lg-4>.single-brand
+{
+	border: 1px solid #BCBCBC;
+	text-align: center;
+	padding: 1rem 0;
+	margin: 1rem 0;
+	height: 100px;
+	width: 175px;
+	cursor: pointer;
+	transition: transform .4s ease;
+}
+.brand-area .container .second-row .col-lg-4>.single-brand img
+{
+	padding: 10px;
+	width: 70%;
+}
+.brand-area .container .second-row .col-lg-4>.single-brand:hover
+{
+	box-shadow:0px 10px 30px #EBEBF5;
+	transform:scale(1.2); 
+}
+.brand-area .container .second-row .col-lg-4>.single-brand:hover img
+{
+	filter: brightness(.1);
+}
+
+.brand-area .experience-area
+{
+	padding-left: 1rem;
+}
+.brand-area .experience-area span
+{
+	display: block;
+}
+.brand-area .experience-area .years-area
+{
+	background: url(../img/client-info-bg.png) no-repeat 45px 20px;
+	padding:2rem 0;
+	height: 15rem;
+	width: 18rem;
+	padding-left: 8rem;
+	position: relative;
+}
+.brand-area .experience-area .bg-panel
+{
+	position: absolute;
+	background-color: #FEF6F6;
+	width: 350px;
+	height: 400px;
+	left: -190px;
+	top: 0px;
+	z-index: -1;
+	margin-left:340px;
+}
+.brand-area .experience-area .years-area .years
+{
+	font: normal bold 80px/40px Roboto , cursive;
+	color: #8845F4;
+	z-index: 2;
+}
+.brand-area .experience-area .years-area >h2 span
+{
+	font: normal 600 20px/30px Roboto , cursive ;
+}
+.brand-area .experience-area .call-area 
+{
+	padding-left: 10rem;
+	font-family: Roboto , cursive;
+}
+.brand-area .experience-area .call-area .call-now a
+{
+	font-size: 25px;
+
+}
+/******* end brand area *****/
+
+
+/******* start services area*****/
+.services-area
+{
+	margin: 10rem auto;
+}
+.services-area h1
+{
+	text-align: center;
+	font: normal bold 50px/30px Roboto,cursive;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+.services-area p
+{
+	text-align: center;
+	font: normal bold 15px/20px Roboto , cursive;
+	color: #777777;
+}
+.services-area .container .row 
+{
+	margin: 20px auto;
+}
+.services-area .container .row .services
+{
+	background-color: #F8FCFD;
+	text-align: center;
+	height: 350px;
+	padding-top: 30px;
+	transition: transform .4s ease;
+}
+.services-area .container .row .services img
+{
+	margin: 30px auto;
+}
+.services-area .container .row .services h3
+{
+	font: normal 200 25px/30px Roboto,cursive;
+	text-transform: uppercase;
+}
+.services-area .container .row .services p
+{
+	font: normal 100 15px/20px roboto,cursive;
+	padding: 20px;
+}
+.services-area .container .row .services:hover
+{
+	box-shadow:0px 10px 30px  #EBEBF5;
+	transform:scale(1.05);
+	filter: brightness(1.005);
+}
+/*******end services area *****/
+
+/******* start project area *****/
+.project-area .project-title h1
+{
+	font: normal bold 45px/50px Roboto,cursive;
+}
+.project-area .button-group
+{
+	padding: 70px 0;
+} 
+.project-area .button-group button
+{
+	background-color: transparent;
+	border:none;
+	font: normal bold 15px Roboto,cursive;
+}
+.project-area .button-group button:active
+{
+	outline: 0px !important;
+	box-shadow: none !important;
+}
+.project-area .button-group button:focus
+{
+	outline: 0px !important;
+	box-shadow: none !important;
+}
+.project-area .button-group button + button
+{
+	padding: 0px 30px;
+}
+
+.project-area .container .row .my-project img:hover
+{
+	shadow-color: 0px 10px 30px 15px rgba(118, 85, 225, 0.3);
+	box-shadow: 0px 10px 30px 15px rgba(57, 56, 61, 0.205);
+	transform:scale(1.01);
+	filter: brightness(1.1);
+}
+.project-area .container .row .my-project h2
+{
+	font: normal bold 25px/20px Roboto,cursive;
+	padding-top: 20px;
+}
+.project-area .container .row .my-project p
+{
+	color: #777777;
+}
+/*******end project area *****/
+/******* start comment area *****/
+.comment-area
+{
+	margin-top: 5rem;
+}
+.comment-area .title h1
+{
+	font: normal bold 40px/30px Roboto,cursive;
+}
+.comment-area .title p
+{
+	font-family: "Roboto" , cursive;
+	color: #777777;
+	padding: 2rem 6rem;
+}
+
+.comment-area .carousel .client
+{
+	
+	box-shadow: 0px 10px 30px  rgba(57, 56, 61, 0.205);
+	margin: 3rem 2rem;
+}
+.comment-area .carousel .client .client-img
+{
+	padding: 2rem;
+}
+.comment-area .carousel .client .client-comment
+{
+	padding-top: 2rem;
+}
+.comment-area .carousel .client .client-comment h4
+{
+	font: normal bold 20px/20px Roboto,cursive;
+}
+.comment-area .carousel .client .client-comment p
+{
+	font-family: "Roboto" ,cursive;
+	color: #777777;
+}
+.comment-area .owl-carousel .owl-dots .owl-dot .active 
+{
+	background:#4458dc;
+	width:12px;
+	height: 12px;
+}
+/*******end comment area *****/
+/****** start subscribe area ******/
+.subscribe-area
+{
+	background: url(../img/subscribe-bg.png) no-repeat;
+	margin-left: 6rem;
+}
+.subscribe-area .subscribe-back
+{
+	
+	margin-bottom: 200px;
+	font-family: "Roboto" ,cursive;
+}
+.subscribe-area .subscribe-back h1
+{
+	font: normal bold 30px/50px Roboto,cursive;
+	color: whitesmoke;
+	padding-top: 10rem;
+}
+.subscribe-area .subscribe-back p
+{
+	font: normal 100 15px/30px roboto,cursive;
+	color: whitesmoke;
+	padding-top: 1rem;	
+}
+.subscribe-area .subscribe-back .email input
+{
+	width: 26rem;
+	height: 3rem;
+	margin-right: 3rem;
+	margin-top:2rem;
+	background-color: transparent;
+	border: 1px solid whitesmoke;
+	border-radius: 5px;
+	color: whitesmoke;
+}
+.subscribe-area .subscribe-back .email input::placeholder
+{
+	color: whitesmoke;
+	padding-left: 15px;
+}
+.subscribe-area .subscribe-back .email button
+{
+	width: 8rem;
+	height:3rem;
+	border-radius: 5px;
+	border:none;
+}
+
+/******* end subscribe area *******/
+/***** start footer area **********/
+.footer-area 
+{
+	background: url(../img/footer-bg.png);
+	padding-top: 6rem;
+}
+.footer-area .img-title img 
+{
+	margin: 2rem 0;
+}
+.footer-area .img-title h4
+{
+	font: normal 300 20px/30px Roboto, cursive;
+
+}
+.footer-area .icons
+{
+	margin: 3rem 0;
+}
+.footer-area .icons a
+{
+	padding: 0px 2rem;
+	color: #D3D8DC;
+	font-size: 25px;
+}
+.footer-area .icons a:hover
+{
+	color: #844EEE;
+}
+.footer-area .copyright p
+{
+	font:normal 1000 15px/20px Roboto,cursive;
+	color: #777777;
+	display: inline-block;
+}
+.footer-area .copyright a
+{
+	font:normal 1000 15px/20px Roboto,cursive;
+}
+.footer-area .copyright
+{
+	margin-bottom: 4rem;
+}
+/*******end footer area *********/
